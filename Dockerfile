@@ -9,7 +9,7 @@ RUN apt-get update \
 COPY custom-runpod.sh /custom-runpod.sh
 RUN chmod +x /custom-runpod.sh
 
-EXPOSE 18080
+EXPOSE 8188 22 8888 8080 18080
 
 ENTRYPOINT ["dumb-init", "--"]
 CMD ["/custom-runpod.sh"]
