@@ -1,4 +1,4 @@
-FROM runpod/comfyui-base:latest
+FROM runpod/comfyui:latest
 
 USER root
 
